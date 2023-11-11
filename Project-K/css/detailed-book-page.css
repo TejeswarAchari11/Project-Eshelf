@@ -1,0 +1,243 @@
+.author-background{
+  background-color:rgb(244, 244, 244);
+  /* background:linear-gradient(to right,#000000 , #000000); */
+  border-radius: 25px;
+
+}
+.about-author{
+    font-family: Bree Serif;
+    font-size: 23px;
+    color: rgb(216, 4, 96);
+}
+.about-author-details{
+    font-family: "Roboto";
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    
+}
+.bg-container{
+  background-color: rgb(255, 255, 255);
+   /* background: linear-gradient(to right, #11998E, #38EF7D);*/
+    background-size: cover;
+    height:100vh;
+    width: 100vw;
+}  
+
+    .shelf-head{
+        text-align: center;
+    }
+    .shelf-heading{
+    color: rgb(255, 251, 251);
+    font-size: 50px;
+    font-family: bree serif;
+    background-color:rgb(3, 198, 149);
+    margin: 10px;
+    
+    }
+    .logo-image {
+        height: 60px;
+        width: 100px;
+        border-radius: 10px;
+        
+      }
+      .home-banner-border{
+        background-color: rgb(255, 255, 255);
+        /* background:linear-gradient(to right,#EE9CA7 , #FFDDE1) */
+        width: 100%;
+        /* background: linear-gradient(to right, #33debc, #30d1c3); */
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.485);
+        
+
+}   
+.details-container {
+    
+    text-align: center;
+    padding: 20px;
+}
+
+.details-image {
+    height: 300px;
+    width: 200px;
+      
+}
+
+.details-heading {
+    font-family: Bree Serif;
+    font-size: 28px;
+    color: rgb(216, 4, 188);
+}
+
+.details-author {
+    font-family: Bree Serif;
+    font-size: 15px;
+    color: #9aa5b1;
+}
+
+.details-para {
+    font-family: Bree Serif;
+    font-size: 24px;
+    color: #000000;
+}
+/* Button */
+
+
+
+
+/* CSS */
+.button-75 {
+  align-items: center;
+  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+  border: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-family: "Codec cold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 54px;
+  justify-content: center;
+  letter-spacing: .4px;
+  line-height: 1;
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-75:active {
+  outline: 0;
+}
+
+.button-75:hover {
+  outline: 0;
+}
+
+.button-75 span {
+  transition: all 200ms;
+}
+
+.button-75:hover span {
+  transform: scale(.9);
+  opacity: .75;
+}
+
+@media screen and (max-width: 991px) {
+  .button-75 {
+    font-size: 15px;
+    height: 50px;
+  }
+
+  .button-75 span {
+    line-height: 50px;
+  }
+}
+/*Button*/
+
+
+.bookWrap {
+  margin:25px auto;
+  height:346px;
+  width:230px;
+
+  position:relative;
+
+  -webkit-perspective: 1200px;
+     -moz-perspective: 1200px;
+          perspective: 1200px;
+}
+
+.book {
+  background:#000;
+  height:346px;
+  width:230px;
+  position:absolute;
+  left:16px;
+  top:0;
+
+  -webkit-transform-style: preserve-3d;
+     -moz-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  
+  -webkit-transition: -webkit-transform .5s ease 0s;
+     -moz-transition: -moz-transform .5s ease 0s;
+          transition: transform .5s ease 0s;
+  
+  -webkit-border-radius: 0 7px 7px 0;
+     -moz-border-radius: 0 7px 7px 0;
+          border-radius: 0 7px 7px 0;
+  
+  -webkit-perspective: 1200px;
+     -moz-perspective: 1200px;
+          perspective: 1200px;
+}
+
+.bookIntro {
+  -webkit-transform: rotateY(30deg);
+     -moz-transform: rotateY(30deg);
+          transform: rotateY(30deg);
+}
+
+.cover {
+  position:absolute;
+  left:0;
+  top:0;
+
+  height: 100%;
+  width: 230px;
+
+  max-width: 230px;
+  max-height: 346px;
+
+  -webkit-backface-visibility: hidden;
+     -moz-backface-visibility: hidden;
+          backface-visibility: hidden;
+
+  -webkit-border-radius: 0 4px 4px 0;
+     -moz-border-radius: 0 4px 4px 0;
+          border-radius: 0 4px 4px 0;
+
+  -webkit-transition: -webkit-transform .5s ease 0s, width .5s ease 0s;
+     -moz-transition: -moz-transform .5s ease 0s, width .5s ease 0s;
+            transition: transform .5s ease 0s, width .5s ease 0s;
+
+  -webkit-transform-origin: 0;
+     -moz-transform-origin: 0;
+          transform-origin: 0;
+}
+
+.cover:hover {  
+  width:210px;
+  
+  -webkit-transform: rotateY(-20deg);
+     -moz-transform: rotateY(-20deg);
+          transform: rotateY(-20deg);
+}
+
+.spine {
+  background:black;
+  width: 40px;
+  height: 344px;
+  position: absolute;
+  top: 0;
+  left:0;
+
+
+  -webkit-transform: rotateY(90deg);
+     -moz-transform: rotateY(90deg);
+          transform: rotateY(90deg);
+
+  -webkit-transform-origin: 0;
+     -moz-transform-origin: 0;
+          transform-origin: 0;
+}
+
+

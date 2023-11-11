@@ -1,0 +1,38 @@
+*{
+  font-family:"Bree Serif";
+  color:white ;
+  
+}
+.logo-image {
+  height: 60px;
+  width: 100px;
+
+}
+.sign-in-box{
+  border-radius: 20px;
+  padding:20px;
+  height:400px;
+  width:700px;
+}
+.sign-up-background{
+  /* background: linear-gradient(to right, #38EF7D, #000000); */
+  
+  border-radius: 25px;
+  background: linear-gradient(to top,#FC4A1A, #F7B733);
+  
+}
+
+.color-background{
+    
+  
+
+  background: linear-gradient(to right,#EE0979, #FF6A00);
+
+  height:100vh;
+}
+.welcome-image{
+  /* height:200px;
+  width:300px; */
+  width:100%;
+  border-radius: 35px;
+}

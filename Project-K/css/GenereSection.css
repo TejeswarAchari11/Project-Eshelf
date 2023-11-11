@@ -1,0 +1,32 @@
+.logo-image {
+    height: 60px;
+    width: 100px;
+
+}
+
+.generesBackground {
+    background: linear-gradient(to right, #11998E, #38EF7D);   height: auto;
+    background-size: cover;
+    width: auto;
+}
+
+.genereCards {
+    background-color: white;
+    border-radius: 15px 50px 30px;
+    border-style: solid;
+    border-color: rgb(222, 213, 213);
+    border-width: 1px;
+    width: 300px;
+    transition: 1s;
+
+}
+
+.genereCards:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.genereCards-image {
+    width: 300px;
+    border-radius: 15px 50px 30px;
+}

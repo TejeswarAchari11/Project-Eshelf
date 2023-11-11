@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Embedded PDF</title>
+    <style>
+        .pdf-container {
+            height: 100vh;
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            padding-top: 120%; /* Aspect ratio for the container (adjust as needed) */
+        }
+        .pdf-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="pdf-container">
+    <embed src="pdfs/Eshelf-Presentation.pdf" type="application/pdf" />
+</div>
+
+</body>
+</html>
